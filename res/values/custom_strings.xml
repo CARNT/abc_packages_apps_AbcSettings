@@ -24,7 +24,7 @@
     <string name="power_settings_title">Power</string>
     <string name="volumerocker_settings_title">Volume and media</string>
     <string name="screen_settings_title">Display</string>
-    <string name="other_settings_title">Other</string>
+    <string name="other_settings_title">Other / Display</string>
     <string name="other_menu_hints_footer">Check Dialer app options for more telephony related settings like the automatic proximity speakerphone</string>
     <string name="abc_leds">LED lights</string>
     <string name="abc_battery_light_settings">Battery charging light</string>
@@ -488,4 +488,15 @@
     <string name="lockscreen_date_selection_default">Default</string>
     <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+
+        <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift">Prevent burn-in by shifting pixels every</string>
+    
 </resources>

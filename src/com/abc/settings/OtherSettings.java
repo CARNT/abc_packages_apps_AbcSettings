@@ -78,6 +78,14 @@ public class OtherSettings extends SettingsPreferenceFragment implements
         mScreenshotEditAppPref.setOnPreferenceClickListener(this);
 
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.other_menu_hints_footer);
+
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference SmartPixels = findPreference("smart_pixels");
+
+        if (!enableSmartPixels){
+            prefScreen.removePreference(SmartPixels);
+        }
     }
 
     @Override
